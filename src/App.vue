@@ -1,17 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <KanbanBoard />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import KanbanBoard from "./components/KanbanBoard.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    KanbanBoard,
+  },
+};
 </script>
 
 <style>
